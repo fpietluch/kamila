@@ -1,0 +1,92 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+lang: en-US
+title: Kamila Łabędź
+email:	milkaaswan@gmail.com
+description: Położna
+copyright: "© 2020 Filip Pietluch fpietluch@gmail.com"
+baseurl: # the optional subpath of your site, e.g. "/blog"	baseurl: 
+url: 
+author:
+  name: Filip Pietluch
+  twitter:
+  picture:
+twitter_username:
+github_username:
+logo: gagat.jpg # path of site logo, e.g. "/assets/images/logo.png"
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: lunr # lunr (default), algolia
+algolia:
+  application_id: WBEV3P8XOA
+  index_name: kamila
+  search_only_api_key: 52e58e71f6ad6bfbbfc824273fc0f554
+  powered_by: false
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+
+markdown: kramdown
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
+
+plugins: # previsously gems
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
+
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: true
+      read_time: true
