@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: en-US
+lang: pl-PL
 title: Kamila Łabędź
 email:	milkaaswan@gmail.com
 description: Położna
@@ -21,12 +21,13 @@ copyright: "© 2020 Filip Pietluch fpietluch@gmail.com"
 baseurl: # the optional subpath of your site, e.g. "/blog"	baseurl: 
 url: 
 author:
-  name: Filip Pietluch
+  name: Kamila Łabędź
   twitter:
   picture:
 twitter_username:
 github_username:
-logo: gagat.jpg # path of site logo, e.g. "/assets/images/logo.png"
+facebook_username: kamila.labedz
+logo: logo.png # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: true # true, false (default)
 search_provider: lunr # lunr (default), algolia
