@@ -1,7 +1,7 @@
 ---
 layout: post
-alt_title: "Basically Basic"
-sub_title: "Your new default Jekyll theme"
-image: kamila2.png
-introduction: dupadupadupa
+alt_title: "mgr Kamila Łabędź "
+sub_title: "położna, edukator ds. laktacji, doradca chustonoszenia, instruktor hipnoporodu"
+image: screenshot.png
 ---
+Lubie placki i się nimi obżeram jeżeli też się chcesz obżerać dzwoń
