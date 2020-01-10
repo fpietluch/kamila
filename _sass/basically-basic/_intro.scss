@@ -5,13 +5,14 @@
 .intro {
   margin: 1rem 0;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.11rem;
 }
 
 .intro-image {
   position: relative;
   margin-top: -3rem; /* compensate for intro top margin */
   margin-bottom: 3rem;
+  margin-left: 0rem;
 
   &::before {
     position: absolute;
@@ -27,6 +28,7 @@
 
   img {
     width: 100%;
+
   }
 }
 
@@ -34,20 +36,23 @@
 
   /* remove space after last child element */
   > *:last-child {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 }
 
 .intro-title {
-  @include fluid-type($min-vw, $max-vw, 26px, 80px);
+  @include fluid-type($min-vw, $max-vw, 14px, 58px);
   margin-bottom: 1rem;
   color: tint($text-color, 25%);
   line-height: 1;
 }
 
 .intro-subtitle {
-  @include fluid-type($min-vw, $max-vw, 18px, 28px);
+  @include fluid-type($min-vw, $max-vw, 18px, 24px);
   font-style: italic;
+  padding-bottom: -2px;
+
+
 }
 
 .intro-actions {
@@ -55,6 +60,7 @@
 
   li {
     display: inline-block;
+
   }
 }
 
@@ -63,5 +69,6 @@
   > p:first-child {
     font-size: 1.125em;
     line-height: 1.625;
+
   }
 }

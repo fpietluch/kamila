@@ -5,20 +5,21 @@
 .site-title {
   @include fluid-type($min-vw, $max-vw, 20px, 24px);
   margin: 0;
-  padding: 1.8125rem 1rem;
+  padding: 1rem 0rem;
+  padding-left: 10rem;
   padding-right: calc(
-    10vw + (2 * #{$navicon-width})
+    5.1vw + (0.1 * {$navicon-width})
   ); /* make room for sidebar toggle */
   font-family: $base-font-family;
   font-weight: bold;
-  line-height: 1;
+  line-height: 9;
 
   @include breakpoint($medium) {
-    padding-left: 2rem;
+    padding-left: 4rem;
   }
 
-  @include breakpoint($large) {
-    padding-left: 5vw;
+  @include breakpoint($xlarge) {
+    padding-left: 4rem;
   }
 
   a {
@@ -28,17 +29,19 @@
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
-    min-height: $site-image-height;
-    color: $text-color;
+    min-height: 1;
+    color: #145ea3;
     text-decoration: none;
   }
 }
 
 .site-logo {
-  width: $site-image-width;
-  height: $site-image-height;
-  margin-right: 0.5rem;
-  border-radius: 50%;
+  width: 420px;
+  height: 200px;
+  margin-right: 0rem;
+  margin-left: 1rem;
+  border-radius: 15%;
+  
 }
 
 .more-link {

@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: pl-PL
-title: Kamila Łabędź
+title: "Kamila Łabędź"
 email:	milkaaswan@gmail.com
 description: Położna
-copyright: "© 2020 Filip Pietluch fpietluch@gmail.com"
+copyright: "© 2020 Filip Pietluch"
 baseurl: # the optional subpath of your site, e.g. "/blog"	baseurl: 
 url: 
 author:
@@ -88,6 +88,6 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: false
+      comments: true
       share: true
       read_time: true
