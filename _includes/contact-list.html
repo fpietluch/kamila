@@ -1,7 +1,7 @@
 <ul class="contact-list">
   {% if site.email %}
-    <li>
-      <a href="mailto:{{ site.email }}">
+    <li> 
+      <a  href="mailto:{{ site.email }}"> Adres Email: <br>     
         <span class="icon icon--email">{% include icon-email.svg %}</span>
         <span class="label">{{ site.data.theme.t.email | default: 'Email' }}</span>
       </a>
@@ -9,12 +9,12 @@
   {% endif %}
   
     <li>
-      <a href="tel: +4851539395 "> 
+      <a href="tel: +4851539395 "> Telefon kontaktowy: <br>
         <span class="icon icon--mobile">{% include icon-mobile2.svg %}</span> 
-        <span class="label">{{'Tel. +48515393950'}}</span>
+        <span class="label">{{'+48515393950'}}</span>
       </a>
     </li>
-
+  <br>
   {% if site.github_username %}
     <li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
   {% endif %}

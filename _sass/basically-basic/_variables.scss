@@ -51,7 +51,7 @@ $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier,
 /* Colors */
 $base-color: #4A235A !default;
 $text-color: #fff !default; 
-$accent-color: #145ea3 !default;
+$accent-color: #A9A9A9 !default;
 $background-color: #145ea3 !default;
 $code-background-color: tint($base-color, 100%) !default;
 $border-color: tint($base-color, 50%) !default;
@@ -100,8 +100,8 @@ $navicon-duration: 0.5s !default;
 $navicon-toggled-size: 1 !default;
 $navicon-nav-bg-close: transparent !default;
 $navicon-nav-bg-open: transparent !default;
-$navicon-content-bg: $text-color !default;
+$navicon-content-bg: #A9A9A9 !default;
 
 /* Site image */
-$site-image-width: 50px !default;
-$site-image-height: 50px !default;
+$site-image-width: 217px !default;
+$site-image-height: 100px !default;

@@ -8,7 +8,7 @@
   padding: 1rem 0rem;
   padding-left: 0rem;
   padding-right: calc(
-    10vw + (2 * #{$navicon-width})
+    10vw + (1 * #{$navicon-width})
   ); /* make room for sidebar toggle */
   font-family: $base-font-family;
   font-weight: bold;
@@ -42,11 +42,11 @@
 }
 
 .site-logo {
-  width: 260px;
-  height: 120px;
+     width: $site-image-width;
+  height: $site-image-height;
   margin-right: 0.1rem;
   border-radius: 15%;
-  
+
 }
 
 .more-link {
