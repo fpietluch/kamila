@@ -300,15 +300,17 @@ tr, td, th { vertical-align: middle; }
 
 /* Components */
 /* ========================================================================== Site-wide ========================================================================== */
-.site-title { margin: 0; padding: 1rem 0rem; padding-left: 10rem; padding-right: calc( 5.1vw + (0.1 * {$navicon-width}) ); /* make room for sidebar toggle */ font-family: "Fira Sans"; font-weight: bold; line-height: 9; }
-.site-title { font-size: 20px; }
-@media screen and (min-width: 320px) { .site-title { font-size: calc(20px + 4 * ((100vw - 320px) / 960)); } }
-@media screen and (min-width: 1280px) { .site-title { font-size: 24px; } }
+.site-title { margin: 0; padding: 1rem 0rem; padding-left: 1rem; padding-right: calc( 1vw + (1 * 1.75em) ); /* make room for sidebar toggle */ font-family: "Fira Sans"; font-weight: bold; line-height: 8; }
+.site-title { font-size: 0px; }
+@media screen and (min-width: 320px) { .site-title { font-size: calc(0px + 0 * ((100vw - 320px) / 960)); } }
+@media screen and (min-width: 1280px) { .site-title { font-size: 0px; } }
 @media (min-width: 48em) { .site-title { padding-left: 4rem; } }
 @media (min-width: 80em) { .site-title { padding-left: 4rem; } }
+@media (min-width: 20em) { .site-title { padding-left: 4rem; } }
+@media (min-width: 48em) { .site-title { padding-left: 4rem; } }
 .site-title a { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-align: center; -webkit-box-align: center; align-items: center; min-height: 1; color: #145ea3; text-decoration: none; }
 
-.site-logo { width: 420px; height: 200px; margin-right: 0rem; margin-left: 1rem; border-radius: 15%; }
+.site-logo { width: 420px; height: 200px; border-radius: 15%; }
 
 .more-link { font-weight: bold; text-decoration: none; }
 
@@ -357,7 +359,7 @@ tr, td, th { vertical-align: middle; }
 .sidebar .contact-list li:not(:last-child) { margin-bottom: 0.5rem; }
 .sidebar .contact-list a { display: block; color: #145ea3; text-decoration: none; }
 
-.sidebar-toggle-wrapper { position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; top: 0; right: 0; margin: 1.8125rem 0; padding-right: 1rem; background-color: #145ea3; z-index: 10000; }
+.sidebar-toggle-wrapper { position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; top: 0; right: 0; margin: 1.8125rem 0; padding-right: 1rem; background-color: #145ea3; opacity: 0.5; z-index: 10000; }
 @media (min-width: 48em) { .sidebar-toggle-wrapper { right: 2rem; padding-right: 0; } }
 @media (min-width: 64em) { .sidebar-toggle-wrapper { right: 5vw; } }
 .sidebar-toggle-wrapper .toggle-inner { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-align: center; -webkit-box-align: center; align-items: center; }
@@ -513,7 +515,7 @@ tr, td, th { vertical-align: middle; }
 .icon--tumblr { fill: #36465d; }
 .icon--twitter { fill: #1da1f2; }
 .icon--xing { fill: #005a5f; }
-.icon--youtube { fill: #cd201f; }
+.icon--youtube, .icon #cd201f { fill: mobile, #000; }
 
 /* ========================================================================== Page intro ========================================================================== */
 .intro { margin: 1rem 0; padding-top: 2rem; padding-bottom: 0.11rem; }

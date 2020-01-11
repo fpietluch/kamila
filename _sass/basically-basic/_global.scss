@@ -3,22 +3,28 @@
    ========================================================================== */
 
 .site-title {
-  @include fluid-type($min-vw, $max-vw, 20px, 24px);
+  @include fluid-type($min-vw, $max-vw, 0px, 0px);
   margin: 0;
   padding: 1rem 0rem;
-  padding-left: 10rem;
+  padding-left: 1rem;
   padding-right: calc(
-    5.1vw + (0.1 * {$navicon-width})
+    1vw + (1 * #{$navicon-width})
   ); /* make room for sidebar toggle */
   font-family: $base-font-family;
   font-weight: bold;
-  line-height: 9;
+  line-height: 8;
 
   @include breakpoint($medium) {
     padding-left: 4rem;
   }
 
   @include breakpoint($xlarge) {
+    padding-left: 4rem;
+  }
+  @include breakpoint($small) {
+    padding-left: 4rem;
+  }
+  @include breakpoint($medium) {
     padding-left: 4rem;
   }
 
@@ -38,8 +44,6 @@
 .site-logo {
   width: 420px;
   height: 200px;
-  margin-right: 0rem;
-  margin-left: 1rem;
   border-radius: 15%;
   
 }

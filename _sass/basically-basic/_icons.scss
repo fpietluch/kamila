@@ -33,6 +33,7 @@
     (twitter, #1da1f2),
     (xing, #005a5f),
     (youtube, #cd201f)
+    (mobile, #000)
   );
 
   @each $icon, $color in $icons {

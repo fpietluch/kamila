@@ -138,6 +138,7 @@
   margin: 1.8125rem 0;
   padding-right: 1rem;
   background-color: #145ea3;
+  opacity: 0.5;
   z-index: 10000;
 
   @include breakpoint($medium) {
