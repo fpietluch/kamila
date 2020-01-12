@@ -36,8 +36,6 @@ algolia:
   index_name: kamila
   search_only_api_key: 52e58e71f6ad6bfbbfc824273fc0f554
   powered_by: false
-disqus:
-  shortname: filippietluch
 
 # Liquid
 liquid:
