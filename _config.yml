@@ -26,7 +26,7 @@ author:
   picture:
 twitter_username:
 github_username:
-facebook_username: kamila.labedz
+facebook_username: midwife.talks
 logo: logo.png # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: true # true, false (default)
@@ -36,6 +36,8 @@ algolia:
   index_name: kamila
   search_only_api_key: 52e58e71f6ad6bfbbfc824273fc0f554
   powered_by: false
+disqus:
+  shortname: filippietluch
 
 # Liquid
 liquid:
