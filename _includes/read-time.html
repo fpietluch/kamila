@@ -1,4 +1,4 @@
-{% assign words_per_minute = site.words_per_minute | default: 200 %}
+{% assign words_per_minute = site.words_per_minute | default: 150 %}
 
 {% if post.read_time %}
   {% assign words = post.content | strip_html | number_of_words %}
@@ -7,7 +7,7 @@
 {% endif %}
 
 {% if words < words_per_minute %}
-  ~1 {{ site.data.theme.t.min_read | default: 'min read' }}
+  ~1 {{ site.data.theme.t.min_read | default: 'min czytania' }}
 {% else %}
-  {{ words | divided_by:words_per_minute }} {{ site.data.theme.t.min_read | default: 'min read' }}
+  {{ words | divided_by:words_per_minute }} {{ site.data.theme.t.min_read | default: 'min czytania' }}
 {% endif %}

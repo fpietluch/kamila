@@ -710,17 +710,17 @@ tr, td, th { vertical-align: middle; }
 
 .intro-title { font-size: 14px; }
 
-@media screen and (min-width: 320px) { .intro-title { font-size: calc(14px + 44 * ((100vw - 320px) / 960)); } }
+@media screen and (min-width: 320px) { .intro-title { font-size: calc(14px + 56 * ((100vw - 320px) / 960)); } }
 
-@media screen and (min-width: 1280px) { .intro-title { font-size: 58px; } }
+@media screen and (min-width: 1280px) { .intro-title { font-size: 70px; } }
 
 .intro-subtitle { font-style: italic; padding-bottom: -2px; }
 
 .intro-subtitle { font-size: 18px; }
 
-@media screen and (min-width: 320px) { .intro-subtitle { font-size: calc(18px + 6 * ((100vw - 320px) / 960)); } }
+@media screen and (min-width: 320px) { .intro-subtitle { font-size: calc(18px + 7 * ((100vw - 320px) / 960)); } }
 
-@media screen and (min-width: 1280px) { .intro-subtitle { font-size: 24px; } }
+@media screen and (min-width: 1280px) { .intro-subtitle { font-size: 25px; } }
 
 .intro-actions { padding-left: 0; list-style: none; }
 

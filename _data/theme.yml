@@ -13,15 +13,15 @@ t:
   results_found: "Rezultat(y):"
   search_placeholder_text: "Wprowadź szukany termin..."
   home: "Strona główna"
-  newer: "Newer"
-  older: "Older"
+  newer: "Nowsze"
+  older: "Starsze"
   email: "kamila.labedz@outlook.com"
   #subscribe: 
-  read_more: "Read More"
+  read_more: "Czytaj więcej..."
   posts: "Posts"
   page: "Page"
-  of: "of"
-  min_read: "min read"
+  of: "z"
+  min_read: "min czytania"
   present: "Present"
 
 # Google Fonts
@@ -38,3 +38,6 @@ navigation_pages:
   - posts.md
   - oferta.md
   - cv.md
+  - ciaza.md
+  - polog.md
+  - karmienie.md
