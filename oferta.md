@@ -4,13 +4,10 @@ layout: default
 ---
 
 
-[<img src='ciastka.jpg' id="logo" align="right" height="45%" width="45%" hspace="20"/>](http://whyr.pl/foundation/)<br/>
+[<img src='ciastka.jpg' id="logo" align="right" height="40%" width="40%" hspace="20"/>](http://whyr.pl/foundation/)<br/>
 
 <br/>
-<br/>
 &nbsp;&nbsp; <span style="color:#fff; font-family: 'Bebas Neue'; font-size: 4em;">Oferta</span>
-<br/>
-<br/>
 <br/>
 <br/>
 
