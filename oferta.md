@@ -6,17 +6,8 @@ layout: default
 
 <br/>
 <br/>
+<img src='ciastka.jpg' id="logo" align="left" height="45%" width="45%" hspace="100"/>
 
-<img src='ciastka.jpg' id="logo" align="right" height="45%" width="45%" hspace="120"/>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 &nbsp;&nbsp; <span style="color:#fff; font-family: 'Bebas Neue'; font-size: 4em;">Oferta</span>
 <br/>
