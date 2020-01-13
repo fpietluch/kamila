@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-[<img src='ciastka.jpg' id="logo" align="right" height="50%" width="50%" hspace="20"/>](http://whyr.pl/foundation/)<br/>
+[<img src='ciastka.jpg' id="logo" align="right" height="45%" width="45%" hspace="20"/>](http://whyr.pl/foundation/)<br/>
 
 <br/>
 <br/>
