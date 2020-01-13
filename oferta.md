@@ -1,21 +1,32 @@
 ---
 title: "Oferta"
 layout: default
+
 ---
 
+<br/>
+<br/>
 
-[<img src='ciastka.jpg' id="logo" align="right" height="40%" width="40%" hspace="20"/>](http://whyr.pl/foundation/)<br/>
+<img src='ciastka.jpg' id="logo" align="right" height="45%" width="45%" hspace="120"/>
 
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 &nbsp;&nbsp; <span style="color:#fff; font-family: 'Bebas Neue'; font-size: 4em;">Oferta</span>
 <br/>
 <br/>
 
-&nbsp;&nbsp;<span style="font-size: 1.5em"> -Clean responsive design with [six customizable skins](#skin)</span><br/>
-&nbsp;&nbsp;<span style="font-size: 1.5em"> -Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)</span><br/>
-&nbsp;&nbsp;<span style="font-size: 1.5em"> -About page layout</span><br/>
-&nbsp;&nbsp;<span style="font-size: 1.5em"> -Disqus Comments and Google Analytics support</span><br/>
-&nbsp;&nbsp;<span style="font-size: 1.5em"> -SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)</span><br/>
+<br/>&nbsp;&nbsp;<span style="font-size: 1.5em"> -Clean responsive design with [six customizable skins](#skin)</span><br/>
+<br/>&nbsp;&nbsp;<span style="font-size: 1.5em"> -Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)</span><br/>
+<br/>&nbsp;&nbsp;<span style="font-size: 1.5em"> -About page layout</span><br/>
+<br/>&nbsp;&nbsp;<span style="font-size: 1.5em"> -Disqus Comments and Google Analytics support</span><br/>
+<br/>&nbsp;&nbsp;<span style="font-size: 1.5em"> -SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)</span><br/>
 
 
 
