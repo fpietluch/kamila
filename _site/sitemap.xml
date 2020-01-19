@@ -107,4 +107,13 @@
 <url>
 <loc>http://localhost:1234/polog/</loc>
 </url>
+<url>
+<loc>http://localhost:1234/porod/</loc>
+</url>
+<url>
+<loc>http://localhost:1234/noworodek/</loc>
+</url>
+<url>
+<loc>http://localhost:1234/wydarzenia/</loc>
+</url>
 </urlset>

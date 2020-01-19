@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: pl-PL
-title: "Kamila Łabędź"
+title: "Położna Kamila Łabędź"
 email:	milkaaswan@gmail.com
 description: Położna
 copyright: "© 2020 Filip Pietluch"
@@ -88,7 +88,16 @@ collections:
     permalink: /:collection/:path/
   karmienie:
     output: true
+    permalink: /:collection/:path/
+  porod:
+    output: true
     permalink: /:collection/:path/ 
+  smrodek:
+    output: true
+    permalink: /:collection/:path/
+  wydarzenia:
+    output: true
+    permalink: /:collection/:path/    
 # Front Matter Defaults
 defaults:
   # Post defaults
@@ -119,3 +128,31 @@ defaults:
       comments: false
       share: true
       read_time: true
+  - scope:
+      path: "_porod"
+      type: porod
+    values:
+      layout: post
+      permalink: /:path:/
+      comments: false
+      share: true
+      read_time: true
+  - scope:
+      path: "_smrodek"
+      type: smrodek
+    values:
+      layout: post
+      permalink: /:path:/
+      comments: false
+      share: true
+  - scope:
+      path: "_wydarzenia"
+      type: wydarzenia
+    values:
+      layout: post
+      permalink: /:path:/
+      comments: false
+      share: true
+      read_time: false
+
+

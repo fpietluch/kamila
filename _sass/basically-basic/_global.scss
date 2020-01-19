@@ -3,16 +3,16 @@
    ========================================================================== */
 
 .site-title {
-  @include fluid-type($min-vw, $max-vw, 0px, 0px);
+  @include fluid-type($min-vw, $max-vw, 26px, 52px);
   margin: 0;
   padding: 1rem 0rem;
   padding-left: 0rem;
   padding-right: calc(
     10vw + (1 * #{$navicon-width})
   ); /* make room for sidebar toggle */
-  font-family: $base-font-family;
+  font-family: "Dancing Script" ;
   font-weight: bold;
-  line-height: 8;
+  line-height: 2.5;
 
   @include breakpoint($medium) {
     padding-left: 1rem;
@@ -36,14 +36,14 @@
     -webkit-box-align: center;
     align-items: center;
     min-height: 1;
-    color: #145ea3;
+    color: #B14894;
     text-decoration: none;
   }
 }
 
 .site-logo {
-     width: $site-image-width;
-  height: $site-image-height;
+  width: 0;
+  height: 0;
   margin-right: 0.1rem;
   border-radius: 15%;
 

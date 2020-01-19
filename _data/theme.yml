@@ -11,7 +11,7 @@ t:
   search: "Szukaj"
   # site_search "Site Search"
   results_found: "Rezultat(y):"
-  search_placeholder_text: "Wprowadź szukany termin..."
+  search_placeholder_text: "Szukaj..."
   home: "Strona główna"
   newer: "Nowsze"
   older: "Starsze"
@@ -28,6 +28,11 @@ t:
 google_fonts:
   - name: "Fira Sans"
     weights: "400,400i,600,600i"
+  - name: "Dancing Script"
+    weights: "400,400i,600,600i"
+  - name: "Inder"
+    weights: "400,400i,600,600i"
+
 
 
 # Link to specific internal pages in the navigation.
@@ -36,8 +41,12 @@ google_fonts:
 
 navigation_pages:
   - posts.md
+  - wydarzenia.md
   - oferta.md
   - cv.md
   - ciaza.md
+  - porod.md
   - polog.md
   - karmienie.md
+  - smrodek.md
+  

@@ -1,5 +1,6 @@
 ---
 title: Ciąża
+paginate: true
 layout: collection
 permalink: /ciaza/
 collection: ciaza

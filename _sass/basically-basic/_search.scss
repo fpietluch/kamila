@@ -62,7 +62,7 @@
     font: 5;
     outline: none;
     -webkit-box-shadow: 5;
-    box-shadow: inset 0 0 0.6em #145ea3;
+    box-shadow: inset 0 0 0.6em #6B034E;
     background-color: #fff;
     @include fluid-type($min-vw, $max-vw, 16px, 24px);
     
@@ -93,12 +93,12 @@
 }
 
 .entry-title .ais-Highlight {
-  color: #462566;
+  color: #B14894;
   font-style: normal;
   text-decoration: underline;
 }
 .entry-excerpt .ais-Highlight {
-  color: #145ea3;
+  color: #B14894;
   font-style: normal;
   font-weight: bold;
 }
