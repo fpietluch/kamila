@@ -334,7 +334,7 @@ tr, td, th { vertical-align: middle; }
 .taxonomy-index + .taxonomy-section { margin-top: 3em; }
 
 /* ========================================================================== Sidebar ========================================================================== */
-.sidebar { position: fixed; top: 0; left: 0; width: 100%; max-width: 320px; height: 100%; z-index: 50; visibility: hidden; -webkit-transition: visibility 0s 0.3s; transition: visibility 0s 0.3s; }
+.sidebar { position: fixed; top: 0; left: 0; width: 100%; max-width: 320px; height: 100%; z-index: 10; visibility: hidden; -webkit-transition: visibility 0s 0.5s; transition: visibility 0s 0.9s; }
 @media (min-width: 64em) { .sidebar { max-width: 480px; } }
 .sidebar.is--visible { visibility: visible; -webkit-transition: visibility 0s 0s; transition: visibility 0s 0s; }
 .sidebar li { -webkit-transform: translateX(-1rem); -ms-transform: translateX(-1rem); transform: translateX(-1rem); -webkit-transition: all 0.1s; transition: all 0.5s; opacity: 0; /* line hover effect */ }
@@ -343,12 +343,12 @@ tr, td, th { vertical-align: middle; }
 .sidebar li a::before { display: block; position: absolute; top: 40%; left: -3rem; width: 0; height: 8px; -webkit-transition: width 0.9s cubic-bezier(0, 0, 0.3, 10); transition: width 0.9s cubic-bezier(0, 0, 0.3, 1.5); background-color: #6B034E; content: ""; }
 .sidebar li a:hover { color: #B14894; }
 .sidebar li a:hover::before { width: 2.5rem; }
-.sidebar > .inner { width: 100%; height: 100%; padding: 1.5em; background-color: #fff; overflow-x: hidden; -webkit-box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125); box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125); }
+.sidebar > .inner { width: 100%; height: 100%; padding: 1.5em; background-color: #fff; overflow-x: hidden; -webkit-box-shadow: inset -1em 0 10em 0 rgba(0, 0, 0, 0.125); box-shadow: inset -1em 0 0.5em 0 rgba(107, 3, 72, 0.9); }
 @media (min-width: 48em) { .sidebar > .inner { padding: 3rem; } }
 .sidebar .menu { position: relative; margin-bottom: 1.5rem; padding-bottom: 0.5rem; font-weight: bold; line-height: 1; /* divider line */ }
 .sidebar .menu { font-size: 24px; }
-@media screen and (min-width: 320px) { .sidebar .menu { font-size: calc(24px + 24 * ((100vw - 320px) / 960)); } }
-@media screen and (min-width: 1280px) { .sidebar .menu { font-size: 48px; } }
+@media screen and (min-width: 320px) { .sidebar .menu { font-size: calc(24px + 12 * ((100vw - 320px) / 960)); } }
+@media screen and (min-width: 1280px) { .sidebar .menu { font-size: 36px; } }
 .sidebar .menu a { display: block; }
 .sidebar .menu::after { position: absolute; bottom: 0; width: 1.5em; height: 1px; background-color: #6B034E; content: ""; }
 .sidebar .menu li { margin-bottom: 1.5rem; }

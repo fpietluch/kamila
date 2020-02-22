@@ -9,10 +9,10 @@
   width: 100%;
   max-width: $sidebar-width;
   height: 100%;
-  z-index: 50;
+  z-index: 10;
   visibility: hidden;
-  -webkit-transition: visibility 0s 0.3s;
-  transition: visibility 0s 0.3s;
+  -webkit-transition: visibility 0s 0.5s;
+  transition: visibility 0s 0.9s;
 
   @include breakpoint($large) {
     max-width: (1.5 * $sidebar-width);
@@ -73,8 +73,8 @@
     padding: 1.5em;
     background-color: $sidebar-background-color;
     overflow-x: hidden;
-    -webkit-box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
-    box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
+    -webkit-box-shadow: inset -1em 0 10em 0 rgba(0, 0, 0, 0.125);
+    box-shadow: inset -1em 0 0.5em 0 rgba(107, 3, 72, 0.900);
 
     @include breakpoint($medium) {
       padding: 3rem;
@@ -82,7 +82,7 @@
   }
 
   .menu {
-    @include fluid-type($min-vw, $max-vw, 24px, 48px);
+    @include fluid-type($min-vw, $max-vw, 24px, 36px);
     position: relative;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
